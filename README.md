@@ -1,4 +1,4 @@
-DNE - by WaGal
+DNE - by WAgner GALdino
 
 This app enriches the brazilian National Address Directory (DNE), a list of brazilian postal codes with their base addresses. 
 DNE itens are on address table in the database.
@@ -15,7 +15,7 @@ address table with that info.
 Finally, the address table is made available for searching by registered users. The user, after signing in, just have to fill a 
 form, typing the postal code number and choosing the response format between html, xml or json.
 
-Just edit the files wagnergaldino/training/dne/database/database.go and wagnergaldino/training/dne/orm/orm.go to update the database connection info. There's a mysql database structure dump available inside the database folder. 
+Just edit the files database/database.go and orm/orm.go to update the database connection info. There's a mysql database structure dump available inside the database folder. 
 
 The app runs on port 8081 and user/pass = wagal/wagal
 
